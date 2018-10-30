@@ -148,7 +148,6 @@ class HomeCustomCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-
     // インスタンスが生成されたときに動く関数
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

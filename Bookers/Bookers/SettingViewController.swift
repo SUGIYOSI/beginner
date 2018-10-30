@@ -296,7 +296,6 @@ class SettingViewController: UIViewController , UITextFieldDelegate , UIImagePic
         self.present(image, animated: true)
     }
     
-    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage
         {

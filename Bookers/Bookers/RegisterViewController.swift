@@ -5,7 +5,6 @@ class RegisterViewController: UIViewController , UITextFieldDelegate{
     var users = [User()]
     var user  = User()
     
-    
     let Email: UITextField = {
         let textField = UITextField()
         textField.backgroundColor = UIColor(white: 0.9, alpha: 1)

@@ -164,7 +164,6 @@ class SearchViewController: UIViewController, UISearchBarDelegate, UITableViewDe
 
 class SearchCustomCell: UITableViewCell {
     
-    
     let bookimage: UIImageView = {
         let image = UIImageView()
         image.backgroundColor = .gray

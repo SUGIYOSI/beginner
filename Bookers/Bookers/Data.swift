@@ -29,7 +29,6 @@ class BookData: NSObject, NSCoding {
         aCoder.encode(BookImage, forKey: "bookimage")
     }
 }
-
 //Userデータを格納するクラス
 
 class User: NSObject, NSCoding {

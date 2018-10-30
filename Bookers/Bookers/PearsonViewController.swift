@@ -116,8 +116,6 @@ class PearsonCustomCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    // 引数のないコンストラクタみたいなもの。
-    // インスタンスが生成されたときに動く関数
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         

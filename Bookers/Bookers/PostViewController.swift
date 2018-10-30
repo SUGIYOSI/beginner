@@ -213,7 +213,6 @@ class PostViewController: UIViewController , UINavigationControllerDelegate, UII
         {
             //ErrorMesseage
         }
-        
         importImageSwich = false
         dismiss(animated: true, completion: nil)
     }
